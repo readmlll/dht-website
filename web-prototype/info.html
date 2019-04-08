@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css"/>
+		<title>磁力详情</title>
+		<style type="text/css">
+			.back {
+				width: 100%;
+				height: 100%;
+				background: white;
+				opacity: 0.8;
+				z-index: -10;
+				position: fixed;
+				top: 0;
+			}
+
+			.nav-row {
+				height: 37px;
+				background: black;
+				opacity: 0.4;
+				line-height: 35px;
+			}
+
+			.top-search {
+				background: rgb(248, 248, 248);
+				padding: 12px;
+				padding-left: none;
+				border-bottom: 1px solid rgb(231, 231, 231);
+			}
+
+			.top-search-bn {
+				color: black;
+				margin-left: 10px;
+			}
+
+
+			.bottom-search-copyright {
+				background: rgb(248, 248, 248);
+				bottom: 0;
+				padding: 14px;
+				z-index: 10;
+				position: static;
+			}
+	
+			.statement{
+					padding-top: 12px;
+					padding-bottom: 12px;
+			}
+			
+			.border-eee{
+				border: 1px solid #eee;
+			}
+			
+			.panel-heading h3{
+				margin: 0;
+				font-size: 15px;
+				font-weight: 900;
+			}
+			p{
+				word-wrap:break-word ;
+			}
+			
+			.list-group-item-self{
+				padding: 3px 2px 3px 6px;
+			}
+			
+			.all-height{
+				height:calc(100% - 49px);
+			}
+			
+		</style>
+
+	</head>
+	<body>
+		<div class="container container-allwidth all-height">
+			<div class="row row-allwidth nav-row">
+				<div class="col-md-4 col-sm-4 col-xs-4  nav-left">
+					<a href="javascript:;" class="nav-a">Readm-DHT</a>
+				</div>
+				<div class="col-md-1 col-md-offset-5 col-sm-1 col-sm-offset-5
+				col-xs-1 col-xs-offset-5 nav-rigth">
+					<a href="javascript:;" class="nav-a">Github</a>
+				</div>
+				<div class="col-md-1 col-sm-1 col-xs-1 nav-rigth">
+					<a href="javascript:;" class="nav-a">Help</a>
+				</div>
+				<div class="col-md-1 col-sm-1  col-xs-1 nav-rigth">
+					<a href="javascript:;" class="nav-a">声明</a>
+				</div>
+			</div>
+
+
+			<div class="row row-allwidth top-search">
+				<div class="col-md-4 col-md-offset-0 col-xs-6 col-xs-offset-2 no-right-padding">
+					<input type="text" class="form-control search-input" placeholder="What would you like?...">
+				</div>
+				<div class="col-md-2 no-left-padding col-xs-2">
+					<button type="button" class="search-bn btn btn-default top-search-bn">Find It</button>
+				</div>
+				
+				<div class="col-md-1 col-md-offset-3 col-xs-1 col-xs-offset-1 back-bn-col">
+					<button type="button" class="fa fa-mail-reply back-bn"></button>
+				</div>
+			</div>
+
+			<div style="height: 30px;">
+			</div>
+
+			<div class="row  row-allwidth">
+
+				<div class="col-md-7 col-md-offset-1 col-xs-6">
+
+					<div class="panel panel-default info-conten-panel ">
+						<div class="panel-heading info-content-head ">
+							<h3>基础信息</h3>
+						</div>
+					 <div class="panel-body info-content">
+						<p>资源名称: <span> 周星驰</span></p>
+						<p>文件大小: <span> 12.0GB</span></p>
+						<p>创建日期: <span> 2015-05-05</span></p>
+						<p>磁力链接: <span> <a href="">magnet:?xt=urn:btih:8F47618F585D3615601DEDE6F4315A6845D1C4AD</a></span></p>
+						<p>文件数量: <span> 12</span></p>
+					  </div>
+					</div>
+
+					<div class="panel panel-default info-conten-panel ">
+						<div class="panel-heading info-content-head ">
+							<h3>文件列表</h3>
+						</div>
+					 <div class="panel-body info-content">
+						<ul class="list-group">
+						  <li class="list-group-item list-group-item-self">Cras justo odio</li>
+						  <li class="list-group-item list-group-item-self">Dapibus ac facilisis in</li>
+						  <li class="list-group-item list-group-item-self">Morbi leo risus</li>
+						  <li class="list-group-item list-group-item-self">Porta ac consectetur ac</li>
+						  <li class="list-group-item list-group-item-self">Vestibulum at eros</li>
+						  <li class="list-group-item list-group-item-self">Dapibus ac facilisis in</li>
+						  <li class="list-group-item list-group-item-self">Morbi leo risus</li>
+
+						</ul>
+					  </div>
+					</div>
+
+				</div>
+
+				<div class="col-md-2 col-md-offset-1 col-xs-5 col-xs-offset-1 border-eee">
+						<div class="statement">
+							本站是一个磁力链接搜索引擎，可以从DHT网络获取到当前的活跃资源，用于DHT网络的学习，分析和研究。内容是本站根据您的指令自动搜索的结果，不代表本站赞成资源的内容或立场，资源的版权归种子制作者所有。
+更多内容请查看声明。
+						</div>
+				</div>
+
+
+			</div>
+			
+		<div class="back"></div>
+		</div>
+		
+
+
+		<div class="row row-allwidth">
+			<div class="col-md-12 bottom-copyright bottom-search-copyright col-xs-12 ft-black">
+				Copyright © 2019 Readm 联系我们
+			</div>
+		</div>
+	</body>
+</html>

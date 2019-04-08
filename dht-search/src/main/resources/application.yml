@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+      properties:
+        transport:
+          tcp:
+            connect_timeout: 12s

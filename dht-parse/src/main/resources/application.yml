@@ -1,0 +1,19 @@
+server:
+  port: 8000
+
+
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6338
+    password: 123456
+    timeout: 10000
+
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+      properties:
+        transport:
+          tcp:
+            connect_timeout: 12s

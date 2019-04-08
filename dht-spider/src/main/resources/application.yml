@@ -1,0 +1,21 @@
+server:
+  port: 9103
+
+
+dht: #dht爬虫配置
+  udpPort: 9203 #udp绑定的端口
+  pingThreadNum: 3 #ping 发送 线程数量
+  msgParseThreadNum: 3 #消息解析线程数量
+  findNodeThreadNum: 3 #findnode 发送线程数量
+  findNodeEchoThreadNum: 3 #findnode回复线程数量
+  getPeersEchoThreadNum: 2 #getpeers 回复线程数量
+  routeTableThreadNum: 2 #路由表维护线程数量
+
+
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6338
+    password: 123456
+    timeout: 10000
