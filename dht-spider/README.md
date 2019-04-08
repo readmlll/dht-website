@@ -1,0 +1,3 @@
+将前一个项目
+结合了springboot 和 redis
+在dht网络中伪装节点获取hashinfo的信息，保存到redis中以便检测获取bt信息
