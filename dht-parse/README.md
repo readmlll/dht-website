@@ -1,0 +1,3 @@
+检测并解析hashinfo获得bt信息
+利用spring boot 、redis、elasticsearch
+从redis中获取已经保存的hashinfo 利用别人的种子库解析种子信息，并保存到elasticsearch中。
